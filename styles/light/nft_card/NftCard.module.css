@@ -1,0 +1,90 @@
+.NFT_card_wrapper {
+  max-width: 400px;
+  padding: 16px;
+  margin: 0px 10px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.NFT_card_wrapper .poster_container {
+  position: relative;
+  height: 450px;
+  border-radius: 18px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.NFT_card_wrapper .poster_container .poster {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 425px) {
+  .NFT_card_wrapper .poster_container {
+    height: 400px;
+  }
+}
+
+.NFT_card_wrapper .bidding_price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  background: #2a27c91a;
+  color: #2a27c9;
+  font-size: 12px;
+  padding: 6px 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.NFT_card_wrapper .timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  line-height: 3;
+  color: #060714;
+}
+
+.NFT_card_wrapper .total_bid {
+  color: #7780a1;
+}
+
+.NFT_card_wrapper .like_count {
+  color: #7780a1;
+}
+
+.NFT_card_wrapper .avatar {
+  position: relative;
+  height: 22px;
+  width: 22px;
+  border: 5px solid #2a27c91a !important;
+  border-radius: 50%;
+}
+
+.NFT_card_wrapper .title {
+  font-size: 16px;
+}
+
+@media (min-width: 1400px) {
+  .NFT_card_wrapper .title {
+    font-size: 20px;
+  }
+  .NFT_card_wrapper .bidding_price {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .NFT_card_wrapper {
+    margin: 0 5px;
+  }
+}
+/*# sourceMappingURL=NftCard.module.css.map */

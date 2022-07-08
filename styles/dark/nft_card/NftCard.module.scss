@@ -1,0 +1,78 @@
+@import "../_variable";
+.NFT_card_wrapper {
+  max-width: 400px;
+  padding: 16px;
+  margin: 0px 10px;
+  border-radius: 16px;
+  overflow: hidden;
+
+  .poster_container {
+    position: relative;
+    height: 450px;
+    border-radius: 18px;
+    margin-bottom: 16px;
+    overflow: hidden;
+
+    .poster {
+      width: 100%;
+      height: 100%;
+    }
+
+    @media (max-width: $mobile-lg) {
+      height: 400px;
+    }
+  }
+
+  .bidding_price {
+    display: flex;
+    align-items: baseline;
+    background: #2a27c91a;
+    color: $purple-1000;
+    font-size: 12px;
+    padding: 6px 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3px;
+  }
+
+  .timer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 3;
+    color: $white;
+  }
+
+  .total_bid {
+    color: $gray-white-1000;
+  }
+
+  .like_count {
+    color: $gray-white-1000;
+  }
+
+  .avatar {
+    position: relative;
+    height: 22px;
+    width: 22px;
+    border: 5px solid $purple-200 !important;
+    border-radius: 50%;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1400px) {
+    .title {
+      font-size: 20px;
+    }
+    .bidding_price {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    margin: 0 5px;
+  }
+}

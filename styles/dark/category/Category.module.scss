@@ -1,0 +1,49 @@
+@import "../_variable";
+
+.category {
+  position: relative;
+  z-index: 5;
+  .category_list_wrapper {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 200px;
+    background: #ffffff;
+    box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+    padding: 8px 6px;
+    border-radius: 18px;
+    z-index: 5;
+
+    .category_item {
+      padding: 8px 16px;
+      color: $gray-white-1000;
+      font-weight: 500;
+      border-radius: 4px;
+      cursor: default;
+
+      &:hover {
+        background: $gray-white;
+      }
+    }
+  }
+  .caret_arrow {
+    display: flex;
+    padding: 1px;
+    border-radius: 50%;
+    color: $dark-1000;
+    cursor: pointer;
+
+    &:hover {
+      background: $gray-white-200;
+      transition: all 0.3s linear;
+    }
+  }
+
+  ::placeholder {
+    color: $gray-white-1000;
+    font-size: 16px;
+  }
+  .input {
+    width: 120px;
+  }
+}

@@ -1,0 +1,37 @@
+@import "../_variable";
+
+.Heading {
+  width: 100%;
+  max-height: 1191px;
+  min-width: 100%;
+  min-height: 1191px;
+}
+
+.background_wrapper {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 678px) {
+  .Heading {
+    min-height: 919px;
+    max-height: 919px;
+
+    svg {
+      height: 40px;
+    }
+  }
+}

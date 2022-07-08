@@ -1,0 +1,80 @@
+@import "./_variable";
+
+.Button {
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.4s linear;
+}
+
+.Button_primary {
+  background: linear-gradient(104.42deg, $purple-500 0%, $purple-1000 60.23%);
+  color: $white;
+  border: 0;
+  box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1),
+    inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+
+  &:hover {
+    background: linear-gradient(
+        104.42deg,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 255, 255, 0) 60.23%
+      ),
+      linear-gradient(
+        104.42deg,
+        $purple-500 0%,
+        $purple-500 0.01%,
+        $purple-1000 60.23%
+      );
+    transition: all 0.4s ease-in;
+  }
+
+  &:active {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(104.42deg, $purple-500 0%, $purple-1000 60.23%);
+  }
+  &:disabled {
+    background: linear-gradient(104.42deg, #4745d040 0%, #2a27c940 60.23%);
+  }
+}
+
+.Button_secondary {
+  color: $gray-white-1000;
+  border: 2px solid $gray-white-1000;
+
+  &:hover {
+    border-color: $dark-1000;
+    transition: all 0.4s ease-out;
+  }
+
+  &:active {
+    color: $dark-1000;
+    border-color: $dark-1000;
+  }
+
+  &:disabled {
+    color: $gray-white-200;
+    border-color: $gray-white-500;
+  }
+}
+
+.button_small {
+  padding: 8px;
+  color: $gray-white-1000;
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid $gray-white-500;
+  border-radius: 8px;
+  transition: all 0.3s linear;
+
+  &:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(104.42deg, $purple-500 0%, $purple-1000 60.23%);
+    color: $gray-white;
+    border-color: $purple-1000;
+  }
+}

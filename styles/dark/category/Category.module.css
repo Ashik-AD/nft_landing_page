@@ -1,0 +1,70 @@
+.category {
+  position: relative;
+  z-index: 5;
+}
+
+.category .category_list_wrapper {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  min-width: 200px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+          box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+  padding: 8px 6px;
+  border-radius: 18px;
+  z-index: 5;
+}
+
+.category .category_list_wrapper .category_item {
+  padding: 8px 16px;
+  color: #7780a1;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: default;
+}
+
+.category .category_list_wrapper .category_item:hover {
+  background: #f2f3f6;
+}
+
+.category .caret_arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1px;
+  border-radius: 50%;
+  color: #060714;
+  cursor: pointer;
+}
+
+.category .caret_arrow:hover {
+  background: #e2e2ed;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.category ::-webkit-input-placeholder {
+  color: #7780a1;
+  font-size: 16px;
+}
+
+.category :-ms-input-placeholder {
+  color: #7780a1;
+  font-size: 16px;
+}
+
+.category ::-ms-input-placeholder {
+  color: #7780a1;
+  font-size: 16px;
+}
+
+.category ::placeholder {
+  color: #7780a1;
+  font-size: 16px;
+}
+
+.category .input {
+  width: 120px;
+}
+/*# sourceMappingURL=Category.module.css.map */

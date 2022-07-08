@@ -1,0 +1,25 @@
+@import "../_variable";
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $gray-white-500;
+  height: 50px;
+  width: 50px;
+  right: 50px;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+
+  @media (max-width: $mobile) {
+    right: 0px;
+    height: 40px;
+    width: 40px;
+  }
+}
+.arrow::before {
+  margin-top: -8px;
+  font-family: "sora";
+  font-size: 40px;
+  line-height: 0;
+}

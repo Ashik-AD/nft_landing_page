@@ -1,0 +1,72 @@
+.Button {
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.Button_primary {
+  background: linear-gradient(104.42deg, #514cff 0%, #2a27c9 60.23%);
+  color: #ffffff;
+  border: 0;
+  -webkit-box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+          box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+}
+
+.Button_primary:hover {
+  background: linear-gradient(104.42deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60.23%), linear-gradient(104.42deg, #514cff 0%, #514cff 0.01%, #2a27c9 60.23%);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.Button_primary:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(104.42deg, #514cff 0%, #2a27c9 60.23%);
+}
+
+.Button_primary:disabled {
+  background: linear-gradient(104.42deg, #4745d040 0%, #2a27c940 60.23%);
+}
+
+.Button_secondary {
+  color: #7780a1;
+  border: 2px solid #7780a1;
+}
+
+.Button_secondary:hover {
+  border-color: #060714;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.Button_secondary:active {
+  color: #060714;
+  border-color: #060714;
+}
+
+.Button_secondary:disabled {
+  color: #e2e2ed;
+  border-color: #bbc0d0;
+}
+
+.button_small {
+  padding: 8px;
+  color: #7780a1;
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid #bbc0d0;
+  border-radius: 8px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.button_small:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(104.42deg, #514cff 0%, #2a27c9 60.23%);
+  color: #f2f3f6;
+  border-color: #2a27c9;
+}
+/*# sourceMappingURL=Button.module.css.map */
