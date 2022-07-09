@@ -10,7 +10,7 @@ export default function Thanks() {
       >
         <a target={"_blank"}>
           <Image
-            src={"/../public/cartoon/teddy.png"}
+            src={"https://i.ibb.co/74PY8Gb/teddy.png"}
             alt="cute-teddy"
             height={70}
             width={70}
@@ -36,7 +36,7 @@ export default function Thanks() {
       >
         <a target={"_blank"}>
           <Image
-            src={"/../public/cartoon/octopus.png"}
+            src={"https://i.ibb.co/vZFBWZD/octopus.png"}
             alt="cute-teddy"
             height={70}
             width={70}

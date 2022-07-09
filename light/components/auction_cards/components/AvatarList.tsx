@@ -15,7 +15,7 @@ const AvatarList: FC<{ list: { id: string; image: string }[] }> = ({
           <Image
             className={`border-dark-500 ${Style.avatar}`}
             key={ls.id}
-            src={`/${ls.image}`}
+            src={ls.image}
             alt="bidder_avatar"
             height={30}
             width={30}

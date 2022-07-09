@@ -10,7 +10,7 @@ const Card: FC<CollectionType> = (props) => {
     <div className={`border-dark-500 ${Style.NFT_card_wrapper}`}>
       <div className={Style.poster_container}>
         <Image
-          src={`/${poster}`}
+          src={poster}
           alt="nft_poster"
           className={Style.poster}
           layout="fill"

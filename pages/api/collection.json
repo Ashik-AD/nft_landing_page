@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "poster" : "../public/nfts/nft1.jpg",
+        "poster" : "https://i.ibb.co/3BB1Nf6/nft1.jpg",
         "title": "Strangers of Love",
         "price": 2.23,
         "deadline": "30:21",
@@ -10,25 +10,25 @@
         "bidders": [
             {
                 "id":"1",
-                "image": "../public/avatar/avatar1.png"
+                "image": "https://i.ibb.co/R0gRXKN/avatar1.png"
             },
             {
                 "id":"2",
-                "image": "../public/avatar/avatar2.png"
+                "image": "https://i.ibb.co/DkdsN1C/avatar2.png"
             },
             {
                 "id":"3",
-                "image": "../public/avatar/avatar3.png"
+                "image": "https://i.ibb.co/xDLbjfb/avatar3.png"
             },
             {
                 "id":"4",
-                "image": "../public/avatar/avatar4.png"
+                "image": "https://i.ibb.co/VMrDf36/avatar4.png"
             }
         ]
     },
     {
         "id": 2,
-        "poster" : "../public/nfts/nft2.jpg",
+        "poster" : "https://i.ibb.co/CsHpQdZ/nft2.jpg",
         "title": "Questions of Sensitivity",
         "price": 1.50,
         "deadline": "30:21",
@@ -37,21 +37,21 @@
         "bidders": [
             {
                 "id":"2",
-                "image": "../public/avatar/avatar2.png"
+                "image": "https://i.ibb.co/DkdsN1C/avatar2.png"
             },
             {
                 "id":"3",
-                "image": "../public/avatar/avatar3.png"
+                "image": "https://i.ibb.co/xDLbjfb/avatar3.png"
             },
             {
                 "id":"4",
-                "image": "../public/avatar/avatar4.png"
+                "image": "https://i.ibb.co/VMrDf36/avatar4.png"
             }
         ]
     },
     {
         "id": 3,
-        "poster" : "../public/nfts/nft3.jpg",
+        "poster" : "https://i.ibb.co/18GzWss/nft3.jpg",
         "title": "Directions of Bravery: Chosen death",
         "price": 1.89,
         "deadline": "30:21",
@@ -61,25 +61,25 @@
         "bidders": [
             {
                 "id":"1",
-                "image": "../public/avatar/avatar1.png"
+                "image": "https://i.ibb.co/R0gRXKN/avatar1.png"
             },
             {
                 "id":"2",
-                "image": "../public/avatar/avatar2.png"
+                "image": "https://i.ibb.co/DkdsN1C/avatar2.png"
             },
             {
                 "id":"3",
-                "image": "../public/avatar/avatar3.png"
+                "image": "https://i.ibb.co/xDLbjfb/avatar3.png"
             },
             {
                 "id":"4",
-                "image": "../public/avatar/avatar4.png"
+                "image": "https://i.ibb.co/VMrDf36/avatar4.png"
             }
         ]
     },
     {
         "id": 4,
-        "poster" : "../public/nfts/nft4.jpg",
+        "poster" : "https://i.ibb.co/wNF7X3f/nft4.jpg",
         "title": "Nostalgic Beggar",
         "price": 3.01,
         "deadline": "30:21",
@@ -89,21 +89,21 @@
         "bidders": [
             {
                 "id":"1",
-                "image": "../public/avatar/avatar1.png"
+                "image": "https://i.ibb.co/R0gRXKN/avatar1.png"
             },
             {
                 "id":"2",
-                "image": "../public/avatar/avatar2.png"
+                "image": "https://i.ibb.co/DkdsN1C/avatar2.png"
             },
             {
                 "id":"4",
-                "image": "../public/avatar/avatar4.png"
+                "image": "https://i.ibb.co/VMrDf36/avatar4.png"
             }
         ]
     },
     {
         "id": 5,
-        "poster" : "../public/nfts/nft5.jpg",
+        "poster" : "https://i.ibb.co/XDVdRn9/nft5.jpg",
         "title": "Champions of Perspective",
         "price": 1.23,
         "deadline": "30:21",
@@ -112,21 +112,21 @@
         "bidders": [
             {
                 "id":"1",
-                "image": "../public/avatar/avatar1.png"
+                "image": "https://i.ibb.co/R0gRXKN/avatar1.png"
             },
             {
                 "id":"3",
-                "image": "../public/avatar/avatar3.png"
+                "image": "https://i.ibb.co/xDLbjfb/avatar3.png"
             },
             {
                 "id":"4",
-                "image": "../public/avatar/avatar4.png"
+                "image": "https://i.ibb.co/VMrDf36/avatar4.png"
             }
         ]
     },
     {
         "id": 6,
-        "poster" : "../public/nfts/nft6.jpg",
+        "poster" : "https://i.ibb.co/x5nzPYy/nft6.jpg",
         "title": "Obligation of Design: Makes you puke",
         "price": 1.99,
         "deadline": "30:21",
@@ -135,25 +135,25 @@
         "bidders": [
             {
                 "id":"1",
-                "image": "../public/avatar/avatar1.png"
+                "image": "https://i.ibb.co/R0gRXKN/avatar1.png"
             },
             {
                 "id":"2",
-                "image": "../public/avatar/avatar2.png"
+                "image": "https://i.ibb.co/DkdsN1C/avatar2.png"
             },
             {
                 "id":"3",
-                "image": "../public/avatar/avatar3.png"
+                "image": "https://i.ibb.co/xDLbjfb/avatar3.png"
             },
             {
                 "id":"4",
-                "image": "../public/avatar/avatar4.png"
+                "image": "https://i.ibb.co/VMrDf36/avatar4.png"
             }
         ]
     },
     {
         "id": 7,
-        "poster" : "../public/nfts/nft7.jpg",
+        "poster" : "https://i.ibb.co/2dvPrc5/nft7.jpg",
         "title": "Movement of Dedication",
         "price": 2.1,
         "deadline": "30:21",
@@ -162,19 +162,19 @@
         "bidders": [
             {
                 "id":"1",
-                "image": "../public/avatar/avatar1.png"
+                "image": "https://i.ibb.co/R0gRXKN/avatar1.png"
             },
             {
                 "id":"2",
-                "image": "../public/avatar/avatar2.png"
+                "image": "https://i.ibb.co/DkdsN1C/avatar2.png"
             },
             {
                 "id":"3",
-                "image": "../public/avatar/avatar3.png"
+                "image": "https://i.ibb.co/xDLbjfb/avatar3.png"
             },
             {
                 "id":"4",
-                "image": "../public/avatar/avatar4.png"
+                "image": "https://i.ibb.co/VMrDf36/avatar4.png"
             }
         ]
     }

@@ -8,7 +8,7 @@ const SectionEmoji = () => {
     <Section className="space-24">
       <div className="img">
         <Image
-          src={"/../public/images/emoji.png"}
+          src={"https://i.ibb.co/nQ0xbzj/emoji.png"}
           alt="emoji"
           layout="responsive"
           height={400}

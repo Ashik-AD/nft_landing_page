@@ -22,7 +22,7 @@ const SectionBucket = () => {
       </div>
       <div className="flex content-center overflow-hidden">
         <Image
-          src="/../public/images/bucket.png"
+          src="https://i.ibb.co/p3w4TFz/bucket.png"
           alt="bucket"
           // layout="responsive"
           quality={80}

@@ -4,31 +4,31 @@ const Brands = () => {
   const lists = [
     {
       id: 1,
-      logo: "/../public/brands/adidas.png",
+      logo: "https://i.ibb.co/30g0ms0/adidas.png",
       name: "Adidas",
       url: "https://adida.com",
     },
     {
       id: 2,
-      logo: "/../public/brands/nike.png",
+      logo: "https://i.ibb.co/1n3Qf5f/nike.png",
       name: "Nike",
       url: "https://adida.com",
     },
     {
       id: 3,
-      logo: "/../public/brands/fila.png",
+      logo: "https://i.ibb.co/pX6wTLd/fila.png",
       name: "Fila",
       url: "https://fila.com",
     },
     {
       id: 4,
-      logo: "/../public/brands/new_holland.png",
+      logo: "https://i.ibb.co/Xjm7bxh/new-holland.png",
       name: "New Holland",
       url: "https://newholand.com",
     },
     {
       id: 5,
-      logo: "/../public/brands/ritter_sport.png",
+      logo: "https://i.ibb.co/9tP3gng/ritter-sport.png",
       name: "Ritter Sport",
       url: "https://rittersport.com",
     },

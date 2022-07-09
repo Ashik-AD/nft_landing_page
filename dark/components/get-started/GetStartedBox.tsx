@@ -14,7 +14,7 @@ export const GetStartedBox = () => {
       >
         <span className={Style.hand}>
           <Image
-            src={"/../public/images/hand.png"}
+            src={"https://i.ibb.co/kXh05tH/hand.png"}
             alt="hand of crystal"
             layout="responsive"
             height={520}

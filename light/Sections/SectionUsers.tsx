@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Button from "../components/buttons/Button";
 import Style from "../../styles/light/Home.module.css";
-import UserImage from "../../public/images/users.png";
 export default function SectionUsers() {
   const colors = "#F2F3F6";
   return (
@@ -46,7 +45,7 @@ export default function SectionUsers() {
         <div className={`relative hidden z-0  ${Style.user_img}`}>
           <span className={`absolute`} style={{ top: -180, right: -10 }}>
             <Image
-              src={UserImage}
+              src={"https://i.ibb.co/DYsFnQx/users.png"}
               alt="bg-users"
               layout="fixed"
               objectFit="cover"

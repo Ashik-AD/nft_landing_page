@@ -31,7 +31,7 @@ const CardMinimal: FC<PropsType> = (props) => {
         }
       >
         <Image
-          src={`/${poster}`}
+          src={poster}
           alt="nft_poster"
           layout="responsive"
           className={Style.poster}

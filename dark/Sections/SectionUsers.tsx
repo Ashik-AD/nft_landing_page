@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Button from "../components/buttons/Button";
 import Style from "../../styles/dark/Home.module.css";
-import UserImageDark from "../../public/images/users-dark.png";
 export default function SectionUsers() {
   const colors =
     "linear-gradient(188.08deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 93.79%), #060714";
@@ -48,7 +47,7 @@ export default function SectionUsers() {
         <div className={`relative hidden z-0  ${Style.user_img}`}>
           <span className={`absolute`} style={{ top: -180, right: -10 }}>
             <Image
-              src={UserImageDark}
+              src={"https://i.ibb.co/6vMHh80/users-dark.png"}
               alt="bg-users"
               layout="fixed"
               objectFit="cover"
