@@ -3,6 +3,8 @@ import CAT from "./components/CAT";
 import Style from "../../../styles/light/heading/Heading.module.css";
 import Search from "../input/Search";
 import Brands from "../brands/Brands";
+import background from "../../../public/backgrounds/Background.png";
+
 const Heading = () => {
   return (
     <div
@@ -11,7 +13,7 @@ const Heading = () => {
     >
       <div className={Style.background_wrapper}>
         <Image
-          src={"/../public/backgrounds/Background.png"}
+          src={background}
           alt="circles"
           layout="fill"
           objectFit="cover"

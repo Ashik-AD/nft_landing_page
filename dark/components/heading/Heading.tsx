@@ -4,9 +4,7 @@ import CAT from "./components/CAT";
 import Style from "../../../styles/dark/heading/Heading.module.css";
 import Search from "../input/Search";
 import Brands from "../brands/Brands";
-import { useRouter } from "next/router";
 const Heading = () => {
-  const { pathname } = useRouter();
   return (
     <div
       className={`relative flex flex-col align-center content-center heading ${Style.Heading}`}
